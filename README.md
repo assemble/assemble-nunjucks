@@ -17,7 +17,7 @@ app.use(engine());
 Use with `.render`
 
 ```js
-app.page({path: 'foo.njk', contents: 'this is assemble-nunjucks'});
+app.page({path: 'foo.njk', contents: 'this is {{name}}'});
 
 // render a view
 app.render('foo.njk', {name: 'Foo'}, function(err, res) {

@@ -1,7 +1,7 @@
 {
   "name": "assemble-nunjucks",
   "description": "Adds nunjucks support to assemble, with some assemble-specific conveniences.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/jonschlinkert/assemble-nunjucks",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "jonschlinkert/assemble-nunjucks",
