@@ -1,0 +1,56 @@
+{
+  "name": "assemble-nunjucks",
+  "description": "Adds nunjucks support to assemble, with some assemble-specific conveniences.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/assemble-nunjucks",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/assemble-nunjucks",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/assemble-nunjucks/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "assemble",
+    "nunjucks"
+  ],
+  "dependencies": {
+    "engine-nunjucks": "^0.1.1",
+    "is-valid-app": "^0.2.0",
+    "mixin-deep": "^1.1.3"
+  },
+  "devDependencies": {
+    "assemble": "^0.16.1",
+    "gulp-format-md": "^0.1.9"
+  },
+  "verb": {
+    "toc": false,
+    "layout": "common-minimal",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "engine-nunjucks",
+        "generate",
+        "update"
+      ]
+    },
+    "reflinks": [
+      "assemble",
+      "engine-nunjucks",
+      "nunjucks"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
