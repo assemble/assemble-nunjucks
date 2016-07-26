@@ -2,11 +2,11 @@
   "name": "assemble-nunjucks",
   "description": "Adds nunjucks support to assemble, with some assemble-specific conveniences.",
   "version": "0.1.2",
-  "homepage": "https://github.com/jonschlinkert/assemble-nunjucks",
+  "homepage": "https://github.com/assemble/assemble-nunjucks",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
-  "repository": "jonschlinkert/assemble-nunjucks",
+  "repository": "assemble/assemble-nunjucks",
   "bugs": {
-    "url": "https://github.com/jonschlinkert/assemble-nunjucks/issues"
+    "url": "https://github.com/assemble/assemble-nunjucks/issues"
   },
   "license": "MIT",
   "engines": {
