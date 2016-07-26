@@ -26,7 +26,8 @@
   },
   "devDependencies": {
     "assemble": "^0.16.1",
-    "gulp-format-md": "^0.1.9"
+    "gulp-format-md": "^0.1.9",
+    "mocha": "^2.5.3"
   },
   "verb": {
     "toc": false,
